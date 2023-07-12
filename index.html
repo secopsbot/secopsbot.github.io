@@ -34,8 +34,13 @@
     .emoji-buttons a {
       margin: 0 10px;
       text-decoration: none;
-      color: #333;
+      color: #777; /* Set initial color to grey */
       font-size: 60px;
+      transition: color 0.3s; /* Add smooth transition */
+    }
+    
+    .emoji-buttons a:hover {
+      color: #333; /* Change color on mouse hover */
     }
     
     .footer {
